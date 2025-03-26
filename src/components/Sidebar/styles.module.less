@@ -1,0 +1,38 @@
+.sidebar-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  color: var(--color-white);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-menu {
+  position: sticky;
+  overflow-y: auto;
+  height: calc(100vh - 128px);
+}
+
+.sidebar-logout {
+  color: var(--color-white);
+}
+
+.sidebar-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  overflow-y: auto;
+  height: 100vh;
+
+  :global(.ant-layout-sider-children) {
+    display: flex;
+    flex-direction: column;
+  }
+}

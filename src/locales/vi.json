@@ -1,0 +1,15 @@
+{
+  "home": "Trang chủ",
+  "product": "Sản phẩm",
+  "category": "Danh mục sản phẩm",
+  "user": "Người dùng",
+  "setting": "Cài đặt",
+  "logout": "Đăng xuất",
+  "login": "Đăng nhập",
+  "password": "Mặt khẩu",
+  "email": "Email",
+  "changePassword": "Thay đổi mật khẩu",
+  "profile": "Thông tin cá nhân",
+  "pageNotFound": "Không tìm thấy trang",
+  "fieldRequired": "This field is required"
+}

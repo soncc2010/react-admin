@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["src/*"],
+      "layouts/*": ["src/layouts/*"],
+      "locales/*": ["src/locales/*"],
+      "containers/*": ["src/containers/*"],
+      "modals/*": ["src/modals/*"],
+      "types/*": ["src/types/*"],
+      "assets/*": ["assets/*"],
+      "styles/*": ["src/styles/*"],
+      "config/*": ["src/config/*"],
+      "constants/*": ["src/constants/*"],
+      "components/*": ["src/components/*"],
+      "apis/*": ["src/apis/*"],
+      "pages/*": ["src/pages/*"],
+      "stores/*": ["src/stores/*"],
+      "utils/*": ["src/utils/*"],
+      "enums/*": ["src/enums/*"],
+      "hooks/*": ["src/hooks/*"],
+      "routes/*": ["src/routes/*"],
+      "HOC/*": ["src/HOC/*"],
+      "providers/*": ["src/providers/*"],
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+}
